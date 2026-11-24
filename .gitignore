@@ -1,0 +1,42 @@
+# Downloaded Ollama runtime, archives, and model weights
+/.runtime/
+/.ollama/
+
+# Submitted messages, reviews, and local databases
+/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+/.aws/
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local agent/editor state and logs
+/.codex/
+/.agents/
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
